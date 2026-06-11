@@ -15,7 +15,7 @@ def archivos():
     pygame.mixer.music.set_volume(0.3)
 
     # sonido daño
-    variables.sonidoDano = pygame.mixer.Sound(ruta("/music/golpe.mp3"))
+    variables.sonidoDano = pygame.mixer.Sound(ruta("../music/golpe.mp3"))
 
     # imagenes
     variables.fondo = pygame.image.load(ruta("../images/cocina.jpg"))

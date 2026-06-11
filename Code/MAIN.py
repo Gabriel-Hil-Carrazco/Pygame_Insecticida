@@ -54,7 +54,7 @@ while corriendo:
         ventana.blit(textoTiempo, (500, 500))
         ventana.blit(textoBichos, (500, 560))
         pygame.display.flip()
-        pygame.time.delay(2000)
+        pygame.time.delay(3000)
         corriendo = False
         continue
     
